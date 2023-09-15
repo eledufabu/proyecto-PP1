@@ -1,0 +1,159 @@
+/*estilo del encabezado*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../IMG/Friends-Back.jpg)
+    ;
+}
+
+@font-face {
+    font-family: 'Edwardian Script';
+    src: url('../FONT/EdwardianScriptITC.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header {
+    background-image: url(../IMG/Banner.jpg);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    background-size: 100% 100%;      
+}
+
+.header-content {
+    font-family: 'Edwardian Script';
+    font-size: 90px;
+    line-height: 50px;
+    color: gold;
+    background-color: rgba(45, 45, 46, 0.5);
+    border-radius: 15px;
+    padding: 0 75px 0 75px;
+    text-align: center;
+}
+
+.header-content span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: white;
+}
+
+/* dando estilos a card en index */
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 440px;
+    height: 330px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: gold;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 430px;
+    height: 280px;
+    padding: 5px 0 0 0;
+    border-radius: 20px 0 0 0;
+}
+
+.container .card p{
+    padding: 0;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
+
+/* estilo a Card de Picadas */
+
+
+.container .card_picadas{
+    width: 920px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: gold;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card_picadas:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card_picadas img{
+    width: 99%;
+    height: 85%;
+    padding: 5px 0 0 0;
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* dando estilos a card en individuales .Html */
+
+.container_ind{
+    width: 100%;
+    max-width: 1200px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container_ind .card{
+    width: 440px;
+    height: 330px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: gold;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container_ind .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container_ind .card img{
+    width: 430px;
+    height: 320px;
+    padding: 5px 0 0 0;
+    border-radius: 50px 0 50px 0;
+}
+
+.container_ind p{
+    padding: 0;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
+
